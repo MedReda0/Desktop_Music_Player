@@ -325,6 +325,12 @@ input:focus{
   font-size: 45px;
 }
 
+@media (max-width: 767px){
+  .player .playlist .info h1{
+    font-size: 35px;
+  }
+}
+
 .player .playlist img{
   width: 160px;
   height: 160px;
@@ -342,6 +348,12 @@ input:focus{
   position: relative;
 }
 
+@media (max-width: 767px){
+  .player .songs .categories li{
+    font-size: 12px;
+  }
+}
+
 .player .songs .list{
   overflow-y: auto;
   height: 185px;
@@ -349,7 +361,7 @@ input:focus{
 
 @media (max-width: 767px){
   .player .songs .list{
-    height: 200px;
+    height: 245px;
   }
 }
 
@@ -368,6 +380,12 @@ input:focus{
   border-radius: 6px;
   cursor: pointer;
   transition: .2s;
+}
+
+@media (max-width: 767px){
+  .player .songs li{
+    font-size: 12px;
+  }
 }
 
 .player .songs span{
@@ -397,7 +415,7 @@ input:focus{
 
 @media (max-width: 767px){
   .player .songs span.duration{
-    width: 65px;
+    display: none;
   }
 }
 
@@ -415,7 +433,8 @@ input:focus{
 
 @media (max-width: 767px){
   .control{
-    padding: 40px 15px 0;
+    padding: auto 15px 0;
+    font-size: 12px;
   }
 }
 
@@ -438,19 +457,44 @@ input:focus{
 
 .control .control-buttons{
   font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px){
+  .control .control-buttons{
+    font-size: 13px;
+  }
 }
 
 .control .control-buttons .fa-pause{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 15px;
   color: var(--text-color-primary);
   background-color: #1f2531;
-  padding: 10px 15px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+}
+
+@media (max-width: 767px){
+  .control .control-buttons .fa-pause{
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .control .additional-buttons{
   display: flex;
   gap: 20px;
+}
+
+@media (max-width: 767px){
+  .control .additional-buttons{
+    gap: 10px;
+  }
 }
 
 .control .additional-buttons .volume{
@@ -465,6 +509,12 @@ input:focus{
   background-color: #1f2531;
   border-radius: 50px;
   position: relative;
+}
+
+@media (max-width: 767px){
+  .control .additional-buttons .volume .level{
+    width: 60px;
+  }
 }
 
 .control .additional-buttons .volume .level::before{
