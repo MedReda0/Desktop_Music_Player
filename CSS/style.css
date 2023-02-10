@@ -367,7 +367,7 @@ input:focus{
 
 @media (max-width: 767px){
   .player .songs .list{
-    height: 450px;
+    height: 245px;
     margin-bottom: 10px;
   }
 }
