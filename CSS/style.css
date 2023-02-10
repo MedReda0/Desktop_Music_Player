@@ -52,11 +52,6 @@ input:focus{
   margin-bottom: 5px;
 }
 
-@media (max-width: 991px){
-  .container{
-    height: 87vh;
-  }
-}
 
 /* Start sidebar */
 
@@ -373,8 +368,7 @@ input:focus{
 
 @media (max-width: 991px){
   .player .songs .list{
-    height: 312px;
-    margin-bottom: 5px;
+    height: 450px;
   }
 }
 
