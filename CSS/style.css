@@ -52,6 +52,13 @@ input:focus{
   margin-bottom: 5px;
 }
 
+@media (max-width: 991px){
+  .container{
+    height: 89vh;
+    overflow: hidden;
+  }
+}
+
 /* Start sidebar */
 
 .sidebar{
@@ -99,7 +106,7 @@ input:focus{
 @media (max-width: 767px){
   .sidebar .logo{
     width: 45px;
-    margin-top: 5px;
+    margin-top: 20px;
     left: 0;
     transform: translateX(0);
   }
@@ -201,7 +208,7 @@ input:focus{
 .player{
   flex: 1;
   background-image: url(../images/playlist-pic.jpg);
-  background-size: 100% 56%;
+  background-size: 100% 300px;
   background-repeat: no-repeat;
   position: relative;
   width: 220px;
@@ -365,10 +372,10 @@ input:focus{
   height: 185px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .player .songs .list{
-    height: 245px;
-    margin-bottom: 10px;
+    height: 312px;
+    margin-bottom: 5px;
   }
 }
 
