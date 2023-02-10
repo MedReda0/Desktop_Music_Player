@@ -24,11 +24,11 @@
     <!-- Start sidebar -->
     <div class="sidebar">
       <img class="logo" src="images/logo.png" alt="logo">
-      <div class="home pointer"><i class="fa-solid fa-house"></i>Home</div>
-      <div class="browse  pointer"><i class="fa-regular fa-folder-open"></i>Browse</div>
+      <div class="home pointer hover"><i class="fa-solid fa-house"></i>Home</div>
+      <div class="browse  pointer hover"><i class="fa-regular fa-folder-open"></i>Browse</div>
+      <div class="library pointer hover"><i class="fa-solid fa-bookmark"></i>Library<i class="fa-solid fa-angle fa-angle-right"></i></div>
+      <div class="playlists pointer hover"><i class="fa-solid fa-circle-play"></i>Playlists<i class="fa-solid fa-angle fa-angle-down"></i></div>
       <div class="menu">
-        <div class="library pointer">Library<i class="fa-solid fa-angle fa-angle-right"></i></div>
-        <div class="playlists pointer">Playlists<i class="fa-solid fa-angle fa-angle-down"></i></div>
         <ul class="pointer">
           <li>Aimer</li>
           <li class="active">Liked Songs</li>
@@ -38,9 +38,8 @@
           <li>J-Pop</li>
         </ul>
       </div>
-      <div class="archive pointer">Archive<i class="fa-solid fa-angle fa-angle-right"></i></div>
-      <a class="pointer"><i class="fa-solid fa-plus"></i>New Playlist</a>
-      <img class="song-pic" src="images/song-pic.jpg" alt="song-pic">
+      <div class="archive pointer hover"><i class="fa-solid fa-inbox"></i>Archive<i class="fa-solid fa-angle fa-angle-right"></i></div>
+      <a class="pointer hover"><i class="fa-solid fa-plus"></i>New Playlist</a>
     </div>
     <!-- End sidebar -->
     
@@ -60,9 +59,12 @@
         <div class="playlist">
           <img src="images/playlist-pic.jpg" alt="playlist-pic">
           <div class="info">
-            <span>PLAYLIST<i class="fa-solid fa-ellipsis"></i></span>
+            <span class="pointer hover">PLAYLIST<i class="fa-solid fa-ellipsis"></i></span>
             <h1>Liked Songs</h1>
-            <div class="creature"><span>Created by </span>Med Reda</div>
+            <div class="creature">
+              <span>Created by </span>
+              <span>Med Reda</span>
+            </div>
           </div>
         </div>
         <div class="songs">
@@ -162,11 +164,9 @@
   
   <!-- Start control -->
   <div class="control">
+    <img class="song-pic" src="images/song-pic.jpg" alt="song-pic">
     <div class="song-title">
-      <div class="title">
-        <span>Blind To You</span>
-        <i class="fa-solid fa-heart"></i>
-      </div>
+      <span>Blind To You</span>
       <span>Aimer</span>
     </div>
     <div class="control-buttons">

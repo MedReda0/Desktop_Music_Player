@@ -1,3 +1,18 @@
+/* Start Color */
+:root{
+  --background-color: #10141D;
+  --text-color-primary: #afb6c2;
+  --text-color-secondary: #656D78;
+}
+.bg-c{
+  background-color: var(--background-color);
+}
+.txt-1{
+  color: var(--text-color-primary);
+}
+.txt-2{
+  color: var(--text-color-secondary);
+}
 /* Start Box */
 .d-flex {
   display: flex;
@@ -254,4 +269,7 @@
 /* End Components */
 .pointer{
   cursor: pointer;
+}
+.hover:hover{
+  color: var(--text-color-primary);
 }
