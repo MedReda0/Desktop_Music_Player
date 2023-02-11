@@ -47,9 +47,15 @@ input:focus{
   background-color: var(--text-color-secondary);
 }
 
+.music-player{
+  height: 100vh;
+}
+
 .container{
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  height: 92%;
+  position: relative;
 }
 
 /* Start sidebar */
@@ -61,7 +67,7 @@ input:focus{
   position: relative;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar{
     width: 8px;
     text-align: center;
@@ -78,7 +84,7 @@ input:focus{
   width: 25px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar i{
     font-size: 20px;
     position: relative;
@@ -96,7 +102,7 @@ input:focus{
   margin-bottom: 20px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar .logo{
     width: 40px;
     margin-top: 20px;
@@ -109,7 +115,7 @@ input:focus{
   margin-left: 5px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar .fa-angle{
     display: none;
   }
@@ -125,21 +131,23 @@ input:focus{
 }
 
 .sidebar .library,
-.sidebar .playlists{
+.sidebar .playlists,
+.sidebar .archive{
   display: flex;
   align-items: center;
   font-size: 13px;
 }
 
-@media (min-width: 767px){
+@media (min-width: 991px){
   .sidebar .library i{
     transform: translateX(1px);
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar .library,
-  .sidebar .playlists{
+  .sidebar .playlists,
+  .sidebar .archive{
     font-size: 0;
   }
 }
@@ -150,7 +158,7 @@ input:focus{
   height: 85px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar .menu{
     display: none;
   }
@@ -172,24 +180,13 @@ input:focus{
   color: white;
 }
 
-.sidebar .archive{
-  align-items: center;
-  font-size: 13px;
-}
-
-@media (max-width: 767px){
-  .sidebar .archive{
-    display: none;
-  }
-}
-
 .sidebar a{
   display: block;
   margin-bottom: 12px;
   font-size: 13px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .sidebar a{
     font-size: 0;
   }
@@ -370,14 +367,14 @@ input:focus{
 
 .player .songs .list{
   overflow-y: auto;
-  height: 185px;
+  height: 40vh;
 }
-
+/* 
 @media (max-width: 767px){
   .player .songs .list{
-    height: 400px;
+    height: 100px;
   }
-}
+} */
 
 .player .songs .list li.active{
   color: white;
@@ -472,7 +469,7 @@ input:focus{
   box-shadow: rgba(0, 0, 0, 0.678) 0px 5px 15px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
   .control .song-pic{
     display: none;
   }

@@ -19,181 +19,182 @@
 
 </head>
 <body>
-  <div class="container">
-    
-    <!-- Start sidebar -->
-    <div class="sidebar">
-      <img class="logo" src="images/logo.png" alt="logo">
-      <div class="home pointer hover"><i class="fa-solid fa-house"></i>Home</div>
-      <div class="browse  pointer hover"><i class="fa-regular fa-folder-open"></i>Browse</div>
-      <div class="library pointer hover"><i class="fa-solid fa-bookmark"></i>Library<i class="fa-solid fa-angle fa-angle-right"></i></div>
-      <div class="playlists pointer hover"><i class="fa-solid fa-circle-play"></i>Playlists<i class="fa-solid fa-angle fa-angle-down"></i></div>
-      <div class="menu">
-        <ul class="pointer">
-          <li>Aimer</li>
-          <li class="active">Liked Songs</li>
-          <li>Sleepless Nights</li>
-          <li>Relaxing Music</li>
-          <li>Classic</li>
-          <li>J-Pop</li>
-        </ul>
+  <div class="music-player">
+    <div class="container">
+      <!-- Start sidebar -->
+      <div class="sidebar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="home pointer hover"><i class="fa-solid fa-house"></i>Home</div>
+        <div class="browse  pointer hover"><i class="fa-regular fa-folder-open"></i>Browse</div>
+        <div class="library pointer hover"><i class="fa-solid fa-bookmark"></i>Library<i class="fa-solid fa-angle fa-angle-right"></i></div>
+        <div class="playlists pointer hover"><i class="fa-solid fa-circle-play"></i>Playlists<i class="fa-solid fa-angle fa-angle-down"></i></div>
+        <div class="menu">
+          <ul class="pointer">
+            <li>Aimer</li>
+            <li class="active">Liked Songs</li>
+            <li>Sleepless Nights</li>
+            <li>Relaxing Music</li>
+            <li>Classic</li>
+            <li>J-Pop</li>
+          </ul>
+        </div>
+        <div class="archive pointer hover"><i class="fa-solid fa-inbox"></i>Archive<i class="fa-solid fa-angle fa-angle-right"></i></div>
+        <a class="pointer hover"><i class="fa-solid fa-plus"></i>New Playlist</a>
       </div>
-      <div class="archive pointer hover"><i class="fa-solid fa-inbox"></i>Archive<i class="fa-solid fa-angle fa-angle-right"></i></div>
-      <a class="pointer hover"><i class="fa-solid fa-plus"></i>New Playlist</a>
-    </div>
-    <!-- End sidebar -->
-    
-    <!-- Start player -->
-    <div class="player">
-      <div class="content">
-        <header>
-          <div class="search">
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <div class="profile">
-            <i class="fa-solid fa-angle fa-angle-down"></i>
-            <img src="images/profile-pic.jpg" alt="profile-pic">
-          </div>
-        </header>
-        <div class="playlist">
-          <img src="images/playlist-pic.jpg" alt="playlist-pic">
-          <div class="info">
-            <span class="pointer hover">PLAYLIST<i class="fa-solid fa-ellipsis"></i></span>
-            <h1>Liked Songs</h1>
-            <div class="creature">
-              <span>Created by </span>
-              <span>Med Reda</span>
+      <!-- End sidebar -->
+      
+      <!-- Start player -->
+      <div class="player">
+        <div class="content">
+          <header>
+            <div class="search">
+              <input type="text" placeholder="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="profile">
+              <i class="fa-solid fa-angle fa-angle-down"></i>
+              <img src="images/profile-pic.jpg" alt="profile-pic">
+            </div>
+          </header>
+          <div class="playlist">
+            <img src="images/playlist-pic.jpg" alt="playlist-pic">
+            <div class="info">
+              <span>PLAYLIST<i class="fa-solid fa-ellipsis"></i></span>
+              <h1>Liked Songs</h1>
+              <div class="creature">
+                <span>Created by </span>
+                <span>Med Reda</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="songs">
-          <ul class="categories">
-            <li>
-              <span class="title">Title</span>
-              <span class="artist">Artist</span>
-              <span class="album">Album</span>
-              <span class="added">Added</span>
-              <span class="duration">Duration</span>
-            </li>
-          </ul>
-          <ul class="list">
-            <li>
-              <span class="title">Inochi ni fusawashii</span>
-              <span class="artist">Aimer</span>
-              <span class="album">Aimer-Covers</span></span>
-              <span class="added">5 hours ago</span>
-              <span class="duration">5:45</span>
-            </li>
-            <li>
-              <span class="title">Fly Me To The Moon</span>
-              <span class="artist">Megumi Hayashibara</span></span>
-              <span class="album">VINTAGE DENIM</span>
-              <span class="added">Yesterday</span>
-              <span class="duration">4:31</span>
-            </li>
-            <li>
-              <span class="title">Until I Found You</span>
-              <span class="artist">Stephen Sanchez</span>
-              <span class="album">Until I Found You</span>
-              <span class="added">Yesterday</span>
-              <span class="duration">2:55</span>
-            </li>
-            <li class="active">
-              <span class="title">Blind To You</span>
-              <span class="artist">Aimer</span>
-              <span class="album">星の 消えた 夜に</span>
-              <span class="added">2023-01-18</span>
-              <span class="duration">4:41</span>
-            </li>
-            <li>
-              <span class="title">Sway</span>
-              <span class="artist">Michael Bublé</span>
-              <span class="album">Sway</span>
-              <span class="added">2023-02-03</span>
-              <span class="duration">3:07</span>
-            </li>
-            <li>
-              <span class="title">Orion</span>
-              <span class="artist">Aimer</span>
-              <span class="album">Bitter & Sweet</span>
-              <span class="added">2023-02-01</span>
-              <span class="duration">5:53</span>
-            </li>
-            <li>
-              <span class="title">Tabun</span>
-              <span class="artist">Yoasobi</span>
-              <span class="album">THE BOOK</span>
-              <span class="added">2023-01-28</span>
-              <span class="duration">4:23</span>
-            </li>
-            <li>
-              <span class="title">Ai Wo Komete Umi</span>
-              <span class="artist">Teshima Aoi</span>
-              <span class="album">Ai Wo Komete Umi</span>
-              <span class="added">2023-01-20</span>
-              <span class="duration">3:49</span>
-            </li>
-            <li>
-              <span class="title">Stay With Me</span>
-              <span class="artist">Miki Matsubara</span>
-              <span class="album">Pocket Park</span>
-              <span class="added">2023-01-15</span>
-              <span class="duration">5:43</span>
-            </li>
-            <li>
-              <span class="title">0(zero)</span>
-              <span class="artist">LMYK</span>
-              <span class="album">0(zero)</span>
-              <span class="added">2023-01-11</span>
-              <span class="duration">3:44</span>
-            </li>
-            <li>
-              <span class="title">Tokyo</span>
-              <span class="artist">YUI</span>
-              <span class="album">FROM ME TO YOU</span>
-              <span class="added">2023-01-07</span>
-              <span class="duration">5:10</span>
-            </li>
-          </ul>
+          <div class="songs">
+            <ul class="categories">
+              <li>
+                <span class="title">Title</span>
+                <span class="artist">Artist</span>
+                <span class="album">Album</span>
+                <span class="added">Added</span>
+                <span class="duration">Duration</span>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <span class="title">Inochi ni fusawashii</span>
+                <span class="artist">Aimer</span>
+                <span class="album">Aimer-Covers</span></span>
+                <span class="added">5 hours ago</span>
+                <span class="duration">5:45</span>
+              </li>
+              <li>
+                <span class="title">Fly Me To The Moon</span>
+                <span class="artist">Megumi Hayashibara</span></span>
+                <span class="album">VINTAGE DENIM</span>
+                <span class="added">Yesterday</span>
+                <span class="duration">4:31</span>
+              </li>
+              <li>
+                <span class="title">Until I Found You</span>
+                <span class="artist">Stephen Sanchez</span>
+                <span class="album">Until I Found You</span>
+                <span class="added">Yesterday</span>
+                <span class="duration">2:55</span>
+              </li>
+              <li class="active">
+                <span class="title">Blind To You</span>
+                <span class="artist">Aimer</span>
+                <span class="album">星の 消えた 夜に</span>
+                <span class="added">2023-01-18</span>
+                <span class="duration">4:41</span>
+              </li>
+              <li>
+                <span class="title">Sway</span>
+                <span class="artist">Michael Bublé</span>
+                <span class="album">Sway</span>
+                <span class="added">2023-02-03</span>
+                <span class="duration">3:07</span>
+              </li>
+              <li>
+                <span class="title">Orion</span>
+                <span class="artist">Aimer</span>
+                <span class="album">Bitter & Sweet</span>
+                <span class="added">2023-02-01</span>
+                <span class="duration">5:53</span>
+              </li>
+              <li>
+                <span class="title">Tabun</span>
+                <span class="artist">Yoasobi</span>
+                <span class="album">THE BOOK</span>
+                <span class="added">2023-01-28</span>
+                <span class="duration">4:23</span>
+              </li>
+              <li>
+                <span class="title">Ai Wo Komete Umi</span>
+                <span class="artist">Teshima Aoi</span>
+                <span class="album">Ai Wo Komete Umi</span>
+                <span class="added">2023-01-20</span>
+                <span class="duration">3:49</span>
+              </li>
+              <li>
+                <span class="title">Stay With Me</span>
+                <span class="artist">Miki Matsubara</span>
+                <span class="album">Pocket Park</span>
+                <span class="added">2023-01-15</span>
+                <span class="duration">5:43</span>
+              </li>
+              <li>
+                <span class="title">0(zero)</span>
+                <span class="artist">LMYK</span>
+                <span class="album">0(zero)</span>
+                <span class="added">2023-01-11</span>
+                <span class="duration">3:44</span>
+              </li>
+              <li>
+                <span class="title">Tokyo</span>
+                <span class="artist">YUI</span>
+                <span class="album">FROM ME TO YOU</span>
+                <span class="added">2023-01-07</span>
+                <span class="duration">5:10</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+      <!-- End player -->
     </div>
-    <!-- End player -->
-  </div>
-  
-  <!-- Start control -->
-  <div class="control">
-    <img class="song-pic" src="images/song-pic.jpg" alt="song-pic">
-    <div class="song-title">
-      <span>Blind To You</span>
-      <span>Aimer</span>
-    </div>
-    <div class="control-buttons">
-      <i class="fa-solid fa-backward-step"></i>
-      <i class="fa-solid fa-pause"></i>
-      <i class="fa-solid fa-forward-step"></i>
-    </div>
-    <div class="additional-buttons">
-      <i class="fa-solid fa-shuffle"></i>
-      <i class="fa-solid fa-repeat"></i>
-      <div class="volume">
-        <i class="fa-solid fa-volume-low"></i>
-        <div class="level"></div>
+    
+    <!-- Start control -->
+    <div class="control">
+      <img class="song-pic" src="images/song-pic.jpg" alt="song-pic">
+      <div class="song-title">
+        <span>Blind To You</span>
+        <span>Aimer</span>
       </div>
-      <i class="fa-solid fa-ellipsis"></i>
+      <div class="control-buttons">
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-pause"></i>
+        <i class="fa-solid fa-forward-step"></i>
+      </div>
+      <div class="additional-buttons">
+        <i class="fa-solid fa-shuffle"></i>
+        <i class="fa-solid fa-repeat"></i>
+        <div class="volume">
+          <i class="fa-solid fa-volume-low"></i>
+          <div class="level"></div>
+        </div>
+        <i class="fa-solid fa-ellipsis"></i>
+      </div>
     </div>
-  </div>
-  <!-- End control -->
-  
-  <!-- Start song-duration -->
-  <div class="song-duration">
-    <div class="progress"></div>
-    <div class="timing">
-      <span>2:52</span>
-      <span>4:41</span>
+    <!-- End control -->
+    
+    <!-- Start song-duration -->
+    <div class="song-duration">
+      <div class="progress"></div>
+      <div class="timing">
+        <span>2:52</span>
+        <span>4:41</span>
+      </div>
     </div>
+    <!-- End song-duration -->
   </div>
-  <!-- End song-duration -->
 </body>
 </html>
