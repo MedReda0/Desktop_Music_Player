@@ -48,13 +48,15 @@ input:focus{
 }
 
 .music-player{
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .container{
   display: flex;
   margin-bottom: 10px;
-  height: 92%;
+  height: 100%;
   position: relative;
 }
 
@@ -332,14 +334,20 @@ input:focus{
   font-size: 45px;
 }
 
-.player .playlist .info span:nth-of-type(2){
-  color: white;
-}
-
 @media (max-width: 767px){
   .player .playlist .info h1{
     font-size: 35px;
   }
+}
+
+@media (max-width: 400px){
+  .player .playlist .info h1{
+    font-size: 25px;
+  }
+}
+
+.player .playlist .info span:nth-of-type(2){
+  color: white;
 }
 
 .player .playlist img{
@@ -369,12 +377,6 @@ input:focus{
   overflow-y: auto;
   height: 40vh;
 }
-/* 
-@media (max-width: 767px){
-  .player .songs .list{
-    height: 100px;
-  }
-} */
 
 .player .songs .list li.active{
   color: white;
@@ -501,6 +503,7 @@ input:focus{
 @media (max-width: 767px){
   .control .control-buttons{
     font-size: 13px;
+    margin: 0 10px;
   }
 }
 
