@@ -18,6 +18,7 @@ html{
 
 body{
   color: var(--text-color-secondary);
+  overflow: overlay;
 }
 
 ul,li{
@@ -156,6 +157,10 @@ input:focus{
   font-size: 13px;
 }
 
+.sidebar .playlists{
+  margin-bottom: 17px;
+}
+
 @media (min-width: 991px){
   .sidebar .library i{
     transform: translateX(1px);
@@ -173,7 +178,7 @@ input:focus{
 .sidebar .menu{
   margin-bottom: 10px;
   overflow-y: auto;
-  height: 85px;
+  height: 70px;
 }
 
 @media (max-width: 991px){
