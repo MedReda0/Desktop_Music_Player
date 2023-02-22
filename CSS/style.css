@@ -48,6 +48,10 @@ input:focus{
   background-color: var(--text-color-secondary);
 }
 
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--text-color-primary);
+}
+
 .music-player{
   display: flex;
   flex-direction: column;
