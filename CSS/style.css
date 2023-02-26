@@ -60,7 +60,7 @@ input:focus{
 
 @media (max-width: 767px){
   .music-player{
-    gap: 10px;
+    gap: 0px;
   }
 }
 
